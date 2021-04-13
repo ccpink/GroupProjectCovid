@@ -32,7 +32,7 @@ namespace GroupProjectCovid
                             if(data != null)
                             {
                                 var dataObj = JObject.Parse(data);
-                                string country = 
+                                //string country = 
                             }
 
                         }
@@ -46,6 +46,6 @@ namespace GroupProjectCovid
 
         }
 
-        return countries;
+ 
     }
 }

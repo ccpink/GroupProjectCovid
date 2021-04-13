@@ -86,6 +86,7 @@ namespace GroupProjectCovid
 
             FetchData tmpFetch = new FetchData();
             tmpFetch.GetData();
+            //Yep
 
             _allFiles = tmpFetch.countries;
 
