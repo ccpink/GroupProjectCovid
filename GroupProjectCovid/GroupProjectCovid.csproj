@@ -123,7 +123,10 @@
       <DependentUpon>CasesPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="CountryModel.cs" />
-    <Compile Include="CountryViewModel.cs" />
+    <Compile Include="..\CountryViewModel.cs">
+      <Link>CountryViewModel.cs</Link>
+    </Compile>
+    <Compile Include="FetchData.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
